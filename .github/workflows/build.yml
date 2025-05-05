@@ -16,7 +16,6 @@ concurrency:
 jobs:
   job-macos-arm64-build-github-runner:
     runs-on: macos-14
-    needs: code-check
     env:
       MACOSX_DEPLOYMENT_TARGET: "14"  # Set the minimum macOS version
       CIBW_BUILD: "cp311-*" # build on python 3.11
