@@ -107,3 +107,5 @@ ENV/
 # conda build
 /conda_build
 /.pytest_cache/
+
+.idea/
